@@ -1,16 +1,61 @@
-#imagen {
-			width:500px;
-			height:375px;
-			position:relative;
-		}
-		#imagen>div
-		{
-			position: relative;
-			bottom:25px;
-			color:#fff;
-			background-color:#000;
-			padding:2px 10px;
-			opacity:0.5;
-			font-weight:bold;
-		}
-	
+.box-1 {
+	background-image: url(../assets/images/Alejandra_CP.jpg);
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+}
+.box-2 {
+		background-image: url(../assets/images/Daniela.Ruth.jpg);
+		width: 400px;
+		height: 400px;
+		background-size: cover;
+}
+.box-3 {
+		background-image: url(../assets/images/Gabriela.jpg);
+		width: 400px;
+		height: 400px;
+		background-size: cover;
+}
+.box-4 {
+		background-image: url(../assets/images/RocioQm.jpg);
+		width: 400px;
+		height: 400px;
+	  background-size: cover;
+}
+
+.box-5 {
+			background-image: url(../assets/images/SilviaTivi.jpg);
+			width: 400px;
+			height: 400px;
+		  background-size: cover;
+}
+.box-6 {
+			background-image: url(../assets/images/Tahiri.jpg);
+			width: 400px;
+			height: 400px;
+			background-size: cover;
+			}
+
+p, .box {
+	position: relative;
+  left: 90px;
+	top: 360px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.box-2  p {
+	position: relative;
+  left: 200px;
+	top: 360px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.box-5 p{
+	position: relative;
+  left: 200px;
+	top: 360px;
+	color: #fff;
+	font-size: 25px;
+}
